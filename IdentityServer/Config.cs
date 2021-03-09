@@ -8,7 +8,7 @@ using System.Security.Claims;
 namespace IdentityServer
 {
     public class Config
-    {
+    {  
         public static IEnumerable<Client> Clients =>
             new Client[]
             {
