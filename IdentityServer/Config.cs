@@ -84,12 +84,12 @@ namespace IdentityServer
                 new TestUser
                 {
                     SubjectId = "5BE86359-073C-434B-AD2D-A3932222DABE",
-                    Username = "mehmet",
-                    Password = "swn",
+                    Username = "chuzksy",
+                    Password = "password",
                     Claims = new List<Claim>
                     {
-                        new Claim(JwtClaimTypes.GivenName, "mehmet"),
-                        new Claim(JwtClaimTypes.FamilyName, "ozkaya")
+                        new Claim(JwtClaimTypes.GivenName, "chuzksy"),
+                        new Claim(JwtClaimTypes.FamilyName, "onuchukwu")
                     }
                 }
             };
